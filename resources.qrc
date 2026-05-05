@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/python">
-        <file>tuning_mainwindow.py</file>
+        <file>tuning_mainwindow.enc</file>
     </qresource>
 </RCC>

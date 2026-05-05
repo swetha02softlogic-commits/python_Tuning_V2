@@ -1,0 +1,8 @@
+/home/amt-06/Desktop/tuning_V2/build/CMakeFiles/tuning_V2.3.dir
+/home/amt-06/Desktop/tuning_V2/build/CMakeFiles/edit_cache.dir
+/home/amt-06/Desktop/tuning_V2/build/CMakeFiles/rebuild_cache.dir
+/home/amt-06/Desktop/tuning_V2/build/CMakeFiles/list_install_components.dir
+/home/amt-06/Desktop/tuning_V2/build/CMakeFiles/install.dir
+/home/amt-06/Desktop/tuning_V2/build/CMakeFiles/install/local.dir
+/home/amt-06/Desktop/tuning_V2/build/CMakeFiles/install/strip.dir
+/home/amt-06/Desktop/tuning_V2/build/CMakeFiles/tuning_V2.3_autogen.dir

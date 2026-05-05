@@ -1,0 +1,39 @@
+/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/libexec/uic mainwindow.ui -o ui_mainwindow.h
+/tools/xsdk-zynq-edf25.11/sysroots/x86_64-amdedfsdk-linux/usr/bin/aarch64-amd-linux/aarch64-amd-linux-g++ -c -mcpu=cortex-a57+crc --sysroot=/tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/QtCore -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/QtGui -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/QtWidgets -O2 -std=gnu++1z -Wall -Wextra -fPIC -D_REENTRANT -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I. -I/tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include -I. -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtWidgets -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtGui -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtCore -I. -I. -I/tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/lib/mkspecs/linux-oe-g++ -o main.o main.cpp
+/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/libexec/rcc -name resources resources.qrc -o qrc_resources.cpp
+/tools/xsdk-zynq-edf25.11/sysroots/x86_64-amdedfsdk-linux/usr/bin/aarch64-amd-linux/aarch64-amd-linux-g++ -mcpu=cortex-a57+crc --sysroot=/tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/QtCore -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/QtGui -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/QtWidgets -O2 -std=gnu++1z -Wall -Wextra -fPIC -dM -E -o moc_predefs.h /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/lib/mkspecs/features/data/dummy.cpp
+/tools/xsdk-zynq-edf25.11/sysroots/x86_64-amdedfsdk-linux/usr/bin/aarch64-amd-linux/aarch64-amd-linux-g++ -c -mcpu=cortex-a57+crc --sysroot=/tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/QtCore -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/QtGui -isystem /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/QtWidgets -O2 -std=gnu++1z -Wall -Wextra -fPIC -D_REENTRANT -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I. -I/tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include -I. -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtWidgets -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtGui -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtCore -I. -I. -I/tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/lib/mkspecs/linux-oe-g++ -o mainwindow.o mainwindow.cpp
+In file included from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/features.h:527,
+                 from /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/c++/13.4.0/aarch64-amd-linux/bits/os_defines.h:39,
+                 from /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/c++/13.4.0/aarch64-amd-linux/bits/c++config.h:679,
+                 from /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/c++/13.4.0/type_traits:38,
+                 from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtCore/qglobal.h:13,
+                 from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtGui/qtguiglobal.h:7,
+                 from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtWidgets/qtwidgetsglobal.h:8,
+                 from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtWidgets/qmainwindow.h:8,
+                 from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtWidgets/QMainWindow:1,
+                 from mainwindow.h:4,
+                 from main.cpp:1:
+/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-32.h: No such file or directory
+    7 | # include <gnu/stubs-32.h>
+      |           ^~~~~~~~~~~~~~~~
+compilation terminated.
+/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/libexec/moc -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --include /home/amt-06/tunning/moc_predefs.h -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/lib/mkspecs/linux-oe-g++ -I/home/amt-06/tunning -I/tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include -I/home/amt-06/tunning -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtWidgets -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtGui -I/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtCore hwhandler.h -o moc_hwhandler.cpp
+make: *** [Makefile:880: main.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/features.h:527,
+                 from /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/c++/13.4.0/aarch64-amd-linux/bits/os_defines.h:39,
+                 from /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/c++/13.4.0/aarch64-amd-linux/bits/c++config.h:679,
+                 from /tools/xsdk-zynq-edf25.11/sysroots/cortexa57-amd-linux/usr/include/c++/13.4.0/type_traits:38,
+                 from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtCore/qglobal.h:13,
+                 from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtGui/qtguiglobal.h:7,
+                 from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtWidgets/qtwidgetsglobal.h:8,
+                 from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtWidgets/qmainwindow.h:8,
+                 from /opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/QtWidgets/QMainWindow:1,
+                 from mainwindow.h:4,
+                 from mainwindow.cpp:1:
+/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-32.h: No such file or directory
+    7 | # include <gnu/stubs-32.h>
+      |           ^~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Makefile:884: mainwindow.o] Error 1

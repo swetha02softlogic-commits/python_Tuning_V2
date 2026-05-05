@@ -1,0 +1,3 @@
+/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/lib/mkspecs/features/resolve_config.prf:25: 'addExclusiveBuilds' is not a recognized test function.
+/opt/xilinx/kria/sysroots/x86_64-amdedfsdk-linux/usr/lib/mkspecs/features/resolve_config.prf:37: 'addExclusiveBuilds' is not a recognized test function.
+Project WARNING: CONFIG-=import_qpa_plugin is deprecated. Use QTPLUGIN.platforms=- instead.
